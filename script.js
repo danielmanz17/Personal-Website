@@ -59,9 +59,9 @@ const asciiArt = `
 `;
 
 const contentMap = {
-    Portfolio: `Brave, 2024
-Embedded AI-driven sound synthesiser, enabling network-bending
----------------------------------------------------------------
+    Portfolio: `Brave, 2024\n
+Embedded AI-driven sound synthesiser, enabling network-bending\n
+---------------------------------------------------------------\n
 Ancestral (r)Evocations, 2024
 Archival sonification instrument, live ML feedback soundscape
 ---------------------------------------------------------------
