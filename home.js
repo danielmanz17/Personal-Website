@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       const key = e.target.textContent.trim();
       if (key === 'CV') {
-        window.open('docs/cv.pdf', '_blank');
+        window.open('./assets/docs/cv.pdf', '_blank');
       } else if (key === 'Portfolio') {
         renderTextBox(contentMap[key], true);
       } else if (contentMap[key]) {

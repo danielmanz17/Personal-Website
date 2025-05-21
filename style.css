@@ -122,6 +122,15 @@ h1 a:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+  #text-box {
+    width: 95vw;     /* nearly full width on phones */
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+}
+
+
 #text-box a {
   color: inherit;
   text-decoration: none;
