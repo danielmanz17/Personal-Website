@@ -19,13 +19,26 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 2rem;
 }
 
 h1 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.2rem; /* Smaller font size on phones */
+    margin-bottom: 0.5rem; /* Add some space below */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0.4rem;
+  }
 }
 
 /* Navigation menu aligned right */
@@ -38,7 +51,7 @@ nav .menu {
 
 /* Spacing between menu items */
 nav .menu li {
-  margin-left: 140px;
+  margin-left: 7rem;
 }
 
 nav .menu li:first-child {
@@ -56,24 +69,57 @@ nav .menu li a:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+  nav .menu {
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed; /* Use fixed to ensure it stays in view */
+    font-size: 0.7rem;
+    top: 0.4rem;
+    right: 0.4rem;
+    margin: 0;
+    padding: 0;
+    gap: 0.2rem;
+    background: transparent;
+  }
+
+  nav .menu li {
+    margin: 0;
+  }
+
+  nav .menu li a {
+    text-align: right;
+    font-size: 1rem;
+  }
+}
+
 /* ASCII art container */
 #ascii-art {
   white-space: pre;
   font-family: "Roboto Mono", monospace;
-  padding: 20px;
-  padding-left: 200px;
-  margin-top: -30px;
+  padding: 1rem;
+  padding-left: 10rem;
+  margin-top: -3rem;
   color: #0015ff;
+  font-size: 0.6rem;
+}
 
+/* Mobile styles for ASCII art */
+@media screen and (max-width: 600px) {
+  #ascii-art {
+    padding-left: 6rem;     /* Reduce left padding */
+    margin-top: 0;          /* Remove negative margin */
+    font-size: 0.3rem;      /* Slightly bigger font for readability */
+  }
+}
+
+/* Header links (separate block) */
 h1 a {
   text-decoration: none;
   color: inherit;
 }
 h1 a:hover {
   text-decoration: underline;
-}
-
-  font-size: 0.6rem;
 }
 
 #text-box a {
@@ -95,7 +141,6 @@ h1 a:hover {
   box-sizing: border-box; /* ensure padding is applied properly */
 }
   
-
 .image-grid img {
   object-fit: contain;
   height: auto;
