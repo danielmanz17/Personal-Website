@@ -101,7 +101,7 @@ nav .menu li a:hover {
   padding-left: 10rem;
   margin-top: -3rem;
   color: #0015ff;
-  font-size: 2px;
+  font-size: 8px;
 }
 
 /* Mobile styles for ASCII art */
@@ -126,7 +126,7 @@ h1 a:hover {
   white-space: pre-wrap;
   font-family: 'Roboto Mono', monospace;
   padding: 20px;
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   width: 100vw;
   max-width: vw;
   box-sizing: border-box;
