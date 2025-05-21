@@ -69,6 +69,13 @@ nav .menu li a:hover {
   text-decoration: underline;
 }
 
+nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+
 @media screen and (max-width: 600px) {
   nav .menu {
     flex-direction: column;
@@ -98,16 +105,16 @@ nav .menu li a:hover {
   white-space: pre;
   font-family: "Roboto Mono", monospace;
   padding: 1rem;
-  padding-left: 10rem;
-  margin-top: -3rem;
+  padding-left: 4rem;
+  margin-top: 1rem;
   color: #0015ff;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 /* Mobile styles for ASCII art */
 @media screen and (max-width: 600px) {
   #ascii-art {
-    padding-left: 3rem;     /* Reduce left padding */
+    padding-left: 2rem;     /* Reduce left padding */
     margin-top: 0;          /* Remove negative margin */
     font-size: 0.2rem;      /* Slightly bigger font for readability */
   }
