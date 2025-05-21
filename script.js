@@ -98,7 +98,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderAsciiStep() {
-    const charsPerFrame = 6;
+
+    const charsPerFrame = 6;asciiTarget.style.fontSize = '8px';  // Set font size here
 
     for (
       let j = 0;

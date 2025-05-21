@@ -64,7 +64,16 @@ nav .menu li a:hover {
   padding-left: 200px;
   margin-top: -30px;
   color: #0015ff;
-  font-size: 0.1rem;
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 a:hover {
+  text-decoration: underline;
+}
+
+  font-size: 0.6rem;
 }
 
 #text-box a {
@@ -105,4 +114,6 @@ h1 a {
 h1 a:hover {
   text-decoration: underline;
 }
+
+
 
