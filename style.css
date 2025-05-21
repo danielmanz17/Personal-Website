@@ -30,7 +30,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 0.8rem; /* Smaller font size on phones */
+    font-size: 1.2rem; /* Smaller font size on phones */
     margin-bottom: 0.5rem; /* Add some space below */
   }
 }
@@ -89,7 +89,7 @@ nav .menu li a:hover {
 
   nav .menu li a {
     text-align: right;
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 }
 
@@ -101,7 +101,7 @@ nav .menu li a:hover {
   padding-left: 10rem;
   margin-top: -3rem;
   color: #0015ff;
-  font-size: 0.6rem;
+  font-size: 0.55rem;
 }
 
 /* Mobile styles for ASCII art */
@@ -126,7 +126,7 @@ h1 a:hover {
   white-space: pre-wrap;
   font-family: 'Roboto Mono', monospace;
   padding: 20px;
-  font-size: 3vw;
+  font-size: 1.4rem;
   width: 100vw;
   max-width: vw;
   box-sizing: border-box;
