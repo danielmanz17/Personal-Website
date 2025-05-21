@@ -123,12 +123,12 @@ h1 a:hover {
 }
 
 #text-box {
-  white-space: pre;
+  white-space: pre-wrap;
   font-family: 'Roboto Mono', monospace;
   padding: 20px;
   font-size: 0.9rem;
-  width: 600px;
-  max-width: 90vw;
+  width: 100rem;
+  max-width: vw;
   box-sizing: border-box;
 }
 
@@ -136,7 +136,7 @@ h1 a:hover {
   #text-box {
     width: 70vw;
     padding: 10px;
-    font-size: 0.85rem;
+    font-size: 0.65rem;
   }
 }
 
