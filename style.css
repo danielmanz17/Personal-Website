@@ -30,7 +30,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 1.2rem; /* Smaller font size on phones */
+    font-size: 0.8rem; /* Smaller font size on phones */
     margin-bottom: 0.5rem; /* Add some space below */
   }
 }
@@ -89,7 +89,7 @@ nav .menu li a:hover {
 
   nav .menu li a {
     text-align: right;
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 }
 
