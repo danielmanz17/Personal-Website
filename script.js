@@ -122,31 +122,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const textBox = document.getElementById("text-box");
 
-function renderTextBox(text, isPortfolio = false) {
-  let i = 0;
-  textBox.innerHTML = '';
-  const chars = text.split('');
-  const display = [];
+  function renderTextBox(text, isPortfolio = false) {
+    let i = 0;
+    textBox.innerHTML = '';
+    const chars = text.split('');
+    const display = [];
 
-  function renderStep() {
-    if (i < chars.length) {
-      display.push(chars[i]);
-      textBox.textContent = display.join('');
-      i++;
-      setTimeout(renderStep, 0);
-    } else if (isPortfolio) {
-      // Replace project titles with links
-      Object.entries(portfolioLinks).forEach(([title, href]) => {
-        textBox.innerHTML = textBox.innerHTML.replace(
-          title,
-          `<a href="${href}">${title}</a>`
-        );
-      });
+    function renderStep() {
+      if (i < chars.length) {
+        display.push(chars[i]);
+        textBox.textContent = display.join('');
+        i++;
+        setTimeout(renderStep, 0);
+      } else if (isPortfolio) {
+        Object.entries(portfolioLinks).forEach(([title, href]) => {
+          textBox.innerHTML = textBox.innerHTML.replace(
+            title,
+            `<a href="${href}">${title}</a>`
+          );
+        });
+      }
     }
-  }
 
-  renderStep();
-}
+    renderStep();
+  }
 
 renderAsciiStep();
 
