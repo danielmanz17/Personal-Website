@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function renderAsciiStep() {
 
     const charsPerFrame = 6;
-    asciiTarget.style.fontSize = '7px';  // Set font size here
+    asciiTarget.style.fontSize = '5px';  // Set font size here
 
     for (
       let j = 0;
