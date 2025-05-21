@@ -122,14 +122,23 @@ h1 a:hover {
   text-decoration: underline;
 }
 
+#text-box {
+  white-space: pre;
+  font-family: 'Roboto Mono', monospace;
+  padding: 20px;
+  font-size: 0.9rem;
+  width: 600px;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 600px) {
   #text-box {
-    width: 95vw;     /* nearly full width on phones */
+    width: 70vw;
     padding: 10px;
     font-size: 0.85rem;
   }
 }
-
 
 #text-box a {
   color: inherit;
