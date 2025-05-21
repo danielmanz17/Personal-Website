@@ -107,7 +107,7 @@ nav .menu li a:hover {
 /* Mobile styles for ASCII art */
 @media screen and (max-width: 600px) {
   #ascii-art {
-    padding-left: 6rem;     /* Reduce left padding */
+    padding-left: 3rem;     /* Reduce left padding */
     margin-top: 0;          /* Remove negative margin */
     font-size: 0.3rem;      /* Slightly bigger font for readability */
   }
