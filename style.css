@@ -127,16 +127,16 @@ h1 a:hover {
   font-family: 'Roboto Mono', monospace;
   padding: 20px;
   font-size: 0.9rem;
-  width: 100rem;
+  width: 100vw;
   max-width: vw;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
   #text-box {
-    width: 30rem;
+    width: 100vw;
     padding: 0.6rem;
-    font-size: 0.75rem;
+    font-size: 0.55rem;
   }
 }
 
