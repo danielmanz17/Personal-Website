@@ -139,7 +139,7 @@ function renderTextBox(text, isPortfolio = false) {
       Object.entries(portfolioLinks).forEach(([title, href]) => {
         textBox.innerHTML = textBox.innerHTML.replace(
           title,
-          `<a href="${href}" target="_blank">${title}</a>`
+          `<a href="${href}">${title}</a>`
         );
       });
     }
